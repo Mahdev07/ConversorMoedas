@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <h1>Conversor de Moedas</h1>
+        </header>
+
+        <main>
+            <label for="">
+                Converter <b>de:</b>
+                <select id="">
+                    <option value="">R$ Real Brasileiro</option>
+                </select>
+            </label>
+            <label for="">
+                Converter <b>para:</b>
+                <select id="moeda-select">
+                    <option>US$ Dolar americano</option>
+                    <option>€ Euro</option>
+                    <option>Ƀ Bitcoin</option>
+                </select>
+            </label>
+            <label>
+                Valor
+                <input type="number" id="input_real" placeholder="R$ 10.000,00">
+            </label>
+            <button id="button_converter" type="button">Converter</button>
+            <section>
+                <div class="container_bandeira">
+                    <img src="img/brasil.png" alt="bandeira-Brasil">
+                    <p class="text_moeda">Real</p>
+                    <p class="text_valor" id="valor_real">R$ 0,00</p>
+                </div>
+                <img class="seta" src="img/Vector.png" alt="seta baixo">
+                <div class="container_bandeira">
+                    <img src="img/eua.png" id="troca_band" alt="bandeira-EUA" >
+                    <p class="text_moeda" id="troca_moeda">Dólar Americano</p>
+                    <p class="text_valor" id="valor_moeda">US$ 0,00</p>
+                </div>
+            </section>
+        </main>
+
+    </div>
+  </body>
+  <script src="scripts.js">    
+  </script>
+</html>

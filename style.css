@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #e5e5e5;
+}
+.container {
+  background-color: #f4f4f4;
+  width: 375px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+header {
+  background-color: #1b83e2;
+  height: 66px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 18px;
+  color: #f4f4f4;
+  text-align: center;
+  padding-top: 22px;
+}
+main {
+  padding: 24px;
+}
+
+label {
+  font-size: 14px;
+  line-height: 18px;
+  color: #777777;
+}
+select {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  outline: none; /*linha azul em volta do input*/
+  appearance: none; /*tira a seta dos select*/
+  padding-left: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  margin-top: 6px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+input {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  display: block;
+  padding-left: 16px;
+  margin-bottom: 24px;
+  outline: none; /*linha azul em volta do input*/
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+}
+button {
+  height: 48px;
+  width: 100%;
+  color: #f4f4f4;
+  background: #1b83e2;
+  border-radius: 25px;
+  margin-bottom: 36px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  opacity: 0.7;
+}
+section {
+  border: 1px solid #1b83e2;
+  border-radius: 4px;
+}
+.container_bandeira {
+  text-align: center;
+  padding: 10px;
+}
+
+.text_moeda {
+  color: #777777;
+  font-size: 14px;
+}
+.text_valor{
+    color: #1B83E2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seta{
+    margin: 15px auto;
+    display: block;
+}
